@@ -9,6 +9,8 @@ app.use(express.json());
 app.use("/soldiers", soldiersRouter)
 
 const PORT = process.env.PORT;
+console.log();
+
 
 app.listen(PORT, (e) => {
     if (e) return console.log(e);
