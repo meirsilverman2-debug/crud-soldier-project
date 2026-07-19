@@ -65,4 +65,3 @@ export async function getSoldierByID(req, res){
 };
 
 
-
