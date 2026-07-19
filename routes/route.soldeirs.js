@@ -8,7 +8,7 @@ router.post("/", checkBody, createSoldier);
 
 router.get("/", checkQuery, getSoldeirs)
 
-router.get("/", )
+
 
 export default router;
 
